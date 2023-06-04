@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calc</title>
+</head>
+<body>
+    <div class="cont">
+    
+        <input type="text" class="screen1" id="screen" placeholder="0">
+       
+   
+        <div class="buttons">
+            <div class="b c orange" onclick="wash('c')">c</div>
+            <div class="b delet orange" onclick="wash('⇐')">⇐</div>
+            <div class="b percent orange" onclick="show1('%')">%</div>
+            <div class="b division orange"onclick="show('/')">/</div>
+
+            <div class="b number1" onclick="show('1')">1</div>
+            <div class="b number2 " onclick="show('2')">2</div>
+            <div class="b number3 " onclick="show('3')">3</div>
+            <div class="b myltiply orange" onclick="show('*')">x</div>
+            
+            <div class="b number4 " onclick="show('4')">4</div>
+            <div class="b number5 " onclick="show('5')">5</div>
+            <div class="b number6 " onclick="show('6')">6</div>
+            <div class="b minus orange" onclick="show('-')">-</div>
+            
+            <div class="b number7" onclick="show('7')">7</div>
+            <div class="b number8" onclick="show('8')">8</div>
+            <div class="b number9" onclick="show('9')">9</div>
+            <div class="b plus orange" onclick="show('+')">+</div>
+
+            <div class="b pusto"> </div>
+            <div class="b zero " onclick="show('0')">0</div>
+            <div class="b dot " onclick="show('.')">.</div>
+            <div class="b equal orange1" onclick="otvet('=')">=</div>
+
+        </div>
+        </div>
+    </div>
+    <script src="cont.js"></script>
+</body>
+</html>

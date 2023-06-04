@@ -1,0 +1,75 @@
+
+.cont {
+ display: flex;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 50px auto;
+    background: #000;
+    border-radius: 20px;
+    color: #fdfdfd;
+    font-family: Arial;
+    display: grid;
+    padding: 18px;
+    box-shadow: 4px 4px 4px;
+}
+input::placeholder {
+    color: #fff;
+    font-size: 45px;
+    text-align: end;
+}
+.screen1 {
+    width: 210px;
+    height: 60px;
+    grid-column: 1/5;
+    border-width: 0px;
+    font-size: 45px;
+    height: 15px;
+    color:#fff;
+    background: #000000;
+    text-align: end;
+    padding: 50px;
+    
+}
+
+
+
+.buttons {
+    display: grid;
+    grid-template-areas: 
+    "c delet percent division"
+    "number7 number8 number9 multi"
+    "number4 number5 number6 minus"
+    "number1 number2 number3 plus"
+    "pusto zero dot equal";
+    grid-gap: 18px;
+    
+}
+
+
+
+.b {
+    width: 65px;
+    height: 53px;
+    background: #000000;
+    text-align: center;
+    line-height: 52px;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    user-select:none
+    
+}
+
+
+
+.orange {
+    color: #fc7100;
+}
+
+.orange1 {
+    background-color: #fc7100;
+    border-radius: 100%;
+    
+}
+
